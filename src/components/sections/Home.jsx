@@ -13,10 +13,12 @@ export const Home = () => {
           </h1>
 
           <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-            a passionate Web Developer specializing in Next.js, React, Laravel
-            and modern front-end technologies. I love turning ideas into
-            interactive experiences and constantly strive to improve
-            performance, accessibility, and design. <br />
+            Web developer with 5+ years of experience in front-end and back-end
+            development using JavaScript (React, Node.js), PHP (Laravel) and
+            databases like MongoDB and PostgreSQL. Skilled in building
+            responsive interfaces, optimizing performance, and managing
+            Linux-based servers. Experienced in developing and improving web
+            applications across various industries. <br />
             Let's create something amazing together! 🚀
           </p>
 
