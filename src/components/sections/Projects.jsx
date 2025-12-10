@@ -62,7 +62,7 @@ export const Projects = () => {
               </div>
               <div className="flex justify-between items-center my-4">
                 <a
-                  href="https://movie-app-three-lemon.vercel.app/"
+                  href="https://calm-licorice-b158b9.netlify.app/"
                   className="text-blue-400 hover:text-blue-300 transition-colors"
                 >
                   View Project
