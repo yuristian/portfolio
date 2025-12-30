@@ -69,7 +69,7 @@ export const Projects = () => {
                 </a>
               </div>
             </div>
-            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition">
+            {/* <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition">
               <h3 className="text-xl font-bold mb-2">Snake</h3>
               <p className="text-gray-400 mb-4">
                 A Simple Snake Game using HTML and Javascript.
@@ -92,7 +92,7 @@ export const Projects = () => {
                   View Project
                 </a>
               </div>
-            </div>
+            </div> */}
             {/*
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition">
               <h3 className="text-xl font-bold mb-2">Jira Clone</h3>
@@ -122,6 +122,15 @@ export const Projects = () => {
               </div>
             </div>
             */}
+          </div>
+          <br />
+          <div className="flex justify-center space-x-4">
+            <a
+              href="#projects"
+              className="bg-blue-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]"
+            >
+              View All Projects
+            </a>
           </div>
         </div>
       </RevealOnScroll>

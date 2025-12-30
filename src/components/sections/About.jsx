@@ -1,9 +1,13 @@
 import { RevealOnScroll } from "../RevealOnScroll";
 
 export const About = () => {
-  const frontSkills = ["React", "Next", "Tailwind"];
+  const frontSkills = [
+    "Backend & API Design",
+    "Modular System Architectures",
+    "Production Readiness",
+  ];
 
-  const backSkills = ["Node.js", "Laravel", "MongoDB"];
+  const backSkills = ["Go", "Laravel", "SQL", "Node.JS", "RESTful API"];
   return (
     <section
       id="about"
@@ -17,15 +21,14 @@ export const About = () => {
 
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
             <p className="text-gray-300 mb-6">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo est
-              vitae tempore iure nulla rerum possimus nam suscipit amet in,
-              dolorum tenetur animi officiis et voluptates, nesciunt veniam ipsa
-              temporibus.
+              Software engineer focused on building production-ready backend and
+              web systems — designed to scale, evolve, and remain maintainable
+              over time.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-                <h3 className="text-xl font-bold mb-4">Frontend</h3>
+                <h3 className="text-xl font-bold mb-4">Core Focus</h3>
                 <div className="flex flex-wrap gap-2">
                   {frontSkills.map((tech, key) => (
                     <span
@@ -38,7 +41,7 @@ export const About = () => {
                 </div>
               </div>
               <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-                <h3 className="text-xl font-bold mb-4">Backend</h3>
+                <h3 className="text-xl font-bold mb-4">Tools & Technologies</h3>
                 <div className="flex flex-wrap gap-2">
                   {backSkills.map((tech, key) => (
                     <span
@@ -56,13 +59,14 @@ export const About = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
             <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
               <h3 className="text-xl font-bold mb-4"> Education </h3>
-              <ul className="list-disc list-inside text-gray-300 space-y-2">
-                <li>
-                  <strong>B.S in Computer Science</strong> - Maranatha Christian
-                  University (2006 - 2011)
-                </li>
-                <li>Relevant Coursework : Web Development</li>
-              </ul>
+              <div className="space-y-4 text-gray-300">
+                <div>
+                  <h4 className="font-semibold">
+                    <strong>B.S in Computer Science</strong> - Maranatha
+                    Christian University
+                  </h4>
+                </div>
+              </div>
             </div>
 
             <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
@@ -70,15 +74,13 @@ export const About = () => {
               <div className="space-y-4 text-gray-300">
                 <div>
                   <h4 className="font-semibold">
-                    Software Engineer at Indonesian Aerospace (2013 - Present)
+                    Software Engineer - Indonesian Aerospace
                   </h4>
-                  <p>Developed and\ Maintained bla bla bla</p>
                 </div>
                 <div>
                   <h4 className="font-semibold">
-                    Ruby on Rails Developer at PT.WGS (2011 - 2013)
+                    Ruby on Rails Developer - PT.WGS
                   </h4>
-                  <p>Developed and Maintained bla bla bla</p>
                 </div>
               </div>
             </div>

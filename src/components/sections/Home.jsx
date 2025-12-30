@@ -13,13 +13,8 @@ export const Home = () => {
           </h1>
 
           <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-            Web developer with 5+ years of experience in front-end and back-end
-            development using JavaScript (React, Node.js), PHP (Laravel) and
-            databases like MongoDB and PostgreSQL. Skilled in building
-            responsive interfaces, optimizing performance, and managing
-            Linux-based servers. Experienced in developing and improving web
-            applications across various industries. <br />
-            Let's create something amazing together! 🚀
+            Designing production-ready backend & web systems with Go, modern
+            APIs, and clean architecture.
           </p>
 
           <div className="flex justify-center space-x-4">
